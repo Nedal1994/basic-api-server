@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.9.0",
+    "sequelize-cli": "^6.3.0",
+    "sqlite3": "^5.0.2",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "name": "basic-api-server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nedal1994/basic-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nedal1994/basic-api-server/issues"
+  },
+  "homepage": "https://github.com/Nedal1994/basic-api-server#readme"
+}
